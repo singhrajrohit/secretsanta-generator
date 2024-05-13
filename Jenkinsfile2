@@ -16,7 +16,7 @@ pipeline {
                 sh ' mvn clean compile'
             }
         }
-        stage('Static Code Analysis') {
+        stage('Sonar Code Analysis') {
       environment {
         SONAR_URL = "http://18.177.139.35:9000"
       }
