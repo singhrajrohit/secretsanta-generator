@@ -58,7 +58,7 @@ pipeline {
         environment {
         DOCKER_IMAGE = "singhrajrohit/secret-santa:${BUILD_NUMBER}"
         CONTAINER_NAME = "secret-santa-app"
-        PORT_MAPPING = "8081:8081" // Adjust port mapping as needed
+        PORT_MAPPING = "2024:8080" // Adjust port mapping as needed
     }
             steps {
                 script {
